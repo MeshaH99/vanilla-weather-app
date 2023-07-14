@@ -35,7 +35,8 @@ function displayTemperature(response) {
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
 }
 
+let city = "Birmingham,GB";
 let apiKey = "cfa51108812707b2b70f8a214fb652ec";
-let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Birmingham,GB&appid=${apiKey}&units=metric`;
+let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
