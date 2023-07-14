@@ -14,6 +14,7 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/stylesheet.css" />
     <title>Weather</title>
   </head>
@@ -21,7 +22,7 @@
     <div class="container">
       <div class="weather-app-wrapper">
         <div class="weather-app">
-          <h1>Birmingham</h1>
+          <h1 id="city"></h1>
           <div class="row">
             <div class="col-5">
               <div class="d-flex weather-temperature">
@@ -31,23 +32,22 @@
                   id="icon"
                 />
                 <div>
-                  <strong id="temperature">14</strong>
-                  <span class="units"> °C|<a href="#">°F</a></span>
+                  <strong id="temperature"></strong>
+                  <span class="units"> °C | <a href="#">°F</a></span>
                 </div>
               </div>
             </div>
             <div class="col-4">
               <ul>
-                <li>Precipitation: 99%</li>
-                <li>Humidity: 97%</li>
-                <li>Wind: 9mph</li>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span>mph</li>
               </ul>
             </div>
             <div class="col-3 left-summary">
               <span class="subheading">Weather</span>
               <ul>
                 <li>Friday 10:00</li>
-                <li>Rain</li>
+                <li id="description"></li>
               </ul>
             </div>
           </div>
