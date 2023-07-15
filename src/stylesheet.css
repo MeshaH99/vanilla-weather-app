@@ -66,3 +66,13 @@ li:first-letter {
   padding-left: 9px;
   padding-top: 6px;
 }
+
+.weather-temperature .active {
+  color: rgb(32, 33, 36);
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
