@@ -22,7 +22,7 @@ li {
   padding-left: 9px;
   padding-top: 6px;
 }
-li::first-letter {
+li:first-letter {
   text-transform: capitalize;
 }
 .weather-app-wrapper {
