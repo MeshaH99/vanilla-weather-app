@@ -68,7 +68,8 @@ li:first-letter {
   position: relative;
   display: inline;
   font-size: 16px;
-  top: -25px;
+  top: -20px;
+  color: #b290d8;
 }
 .left-summary {
   color: #70757a;
