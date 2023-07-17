@@ -6,7 +6,7 @@ body {
   background-size: cover;
 }
 h1 {
-  color: #878787;
+  color: #6c6cc0;
   font-size: 30px;
   font-weight: 100;
   line-height: 28px;
@@ -48,13 +48,18 @@ li:first-letter {
   background-color: #927cce;
   border-color: #927cce;
 }
+.btn-primary:hover {
+  background-color: #676bbe;
+  transition: all 200ms linear;
+  cursor: pointer;
+}
 .weather-temperature img {
   height: 60px;
   margin-right: 5px;
   width: 60px;
 }
 .weather-temperature strong {
-  color: rgb(32, 33, 36);
+  color: #b290d8;
   font-size: 48px;
   font-weight: 400;
   line-height: 1;
@@ -73,7 +78,7 @@ li:first-letter {
   text-align: right;
 }
 .subheading {
-  color: #202124;
+  color: #6c6cc0;
   font-size: 22px;
   font-weight: 400px;
   line-height: 26px;
@@ -106,4 +111,7 @@ li:first-letter {
 }
 .forecast-temperature-min {
   opacity: 0.4;
+}
+.footer {
+  color: #676bbe;
 }
