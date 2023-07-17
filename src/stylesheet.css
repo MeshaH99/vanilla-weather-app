@@ -108,9 +108,10 @@ li:first-letter {
 }
 .forecast-temperature {
   font-size: 13px;
+  color: #b290d8;
 }
 .forecast-temperature-min {
-  opacity: 0.4;
+  opacity: 0.7;
 }
 .footer {
   color: #676bbe;
